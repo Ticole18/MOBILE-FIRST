@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.service {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
